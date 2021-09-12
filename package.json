@@ -1,0 +1,27 @@
+{
+  "name": "artd-discord-service",
+  "version": "1.0.0",
+  "description": "A service that allows Discord to interact with our FFL data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jesse Perdue",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "apollo-server": "^3.3.0",
+    "axios": "^0.21.4",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "espn-fantasy-football-api": "^0.16.1",
+    "graphql": "^15.5.3"
+  },
+  "engines": {
+    "node": "16.6.1"
+  }
+}
