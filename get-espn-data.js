@@ -15,8 +15,8 @@ myClient.setCookies({ espnS2, SWID });
 async function getEspnData() {
     const getScores = await myClient.getBoxscoreForWeek({
         seasonId,
-        matchupPeriodId: 1,
-        scoringPeriodId: 1
+        matchupPeriodId: 2,
+        scoringPeriodId: 2
     });
     const matchupData = createEmbedFields(getScores);
     const embedded = embedData(matchupData);
